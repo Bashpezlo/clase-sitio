@@ -1,0 +1,245 @@
+/* -------------- Inicio Variables--------------- */
+
+:root {
+--green-color: green;
+--white-color: #fff; 
+--button-color:rgb(0, 221, 55);
+}
+
+/* tipografias */
+:root {
+--font-helvetica: Helvetica;
+}
+
+/* space */
+:root{
+--space: 10px;
+}
+
+/* Box */
+:root{
+--box: 2px 3px 10px 0px #544a4a;
+}
+
+/* -------------- Cierre Variables--------------- */
+
+html,body {
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    font-family: var(--font-helvetica);
+}
+
+nav{
+    display: flex;
+    background-color: var(--green-color);
+    padding: 10px;
+    color: var(--white-color;);
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+
+nav ul{
+    display: flex;
+}
+
+nav li{
+    padding-left:20px;
+    list-style: none;
+    font-size: 14px;    
+}
+
+nav li a{
+    color: var(--white-color);
+    text-decoration: none;
+}
+
+nav li a:hover{
+    color: black;
+    
+}
+
+/* --------------------------main-section */
+.main_section{
+    height: 200px;
+    width: 40%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 140px;
+}
+
+.products{
+margin: 0 auto;
+background-color: transparent;
+width: 100%;
+text-align: center;
+height: 500px;
+}
+
+.product{
+    margin: 5px;
+    width: 300px;
+    display: inline-block;
+    text-align: left;
+    box-shadow:1px 2px 5px 0px #575757;
+    background-color: #fff;    
+}
+
+.product, .content{
+    margin: 16px;   
+}
+
+.img-card img{
+    width: 45%;    
+}
+
+.img-card{
+    text-align: center;
+}
+
+.button{
+    cursor: pointer;
+    width: 100%;
+    font-size: 20px;
+    background-color: green;
+    color: #fff;
+    border: 0;
+    height: 40px;
+}
+
+.button:hover{
+    background-color: rgb(16, 173, 16);
+}
+
+.product-2{
+    margin: 5px;
+    width: 300px;
+    display:inline-block;
+    text-align: left;
+    
+    background-color: #fff;
+    height: 250px;    
+}
+
+.product-2, .content-2{
+    margin: 25px;
+    justify-content: center;   
+}
+
+.img-card-2{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.products-2{
+    height: 300px;
+    width: 100%;
+    background-color: transparent;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.content-2{
+    width: 60%;
+    text-align: left;
+    margin: 0 auto;
+}
+
+
+
+.products-3{
+    height: 300px;
+    width: 100%;
+    background-color: transparent;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.product-3{
+    margin: 5px;
+    width: 250px;
+    display:inline-block;
+    text-align: left;
+    box-shadow: 1px 1px 5px 0px;
+    background-color: #fff;
+    height: 200px;
+}
+
+.img-card-3 img{
+width: 250px;
+height: 105px;
+}
+
+.content-3{
+    width: 90%;
+    text-align: left;
+    margin: 10px;   
+}
+
+.main_section-2{
+    padding: 50px;
+    text-align: center;
+}
+
+footer{
+width: 100%;   
+display: flex;
+background-color: #313337;
+height: 50px;
+color: #fff;
+justify-content: space-between;
+font-size: 14px;
+margin: 0 auto;
+
+}
+
+.terms{
+    margin: 15px;
+    width: 50%;
+}
+
+.contact{
+    margin: 15px;
+    width: 50%;
+    text-align: right;
+}
+
+
+/* --------------------MODULO PAGO-------------------- */
+.modulo-pago{
+    background-color: #fff;
+    box-shadow: var(--box);
+    color: black;
+    padding: 10px;
+    height: 290px;
+    
+}
+
+.modulo-images{
+    
+    max-width: 400px;
+    text-align: center;
+}
+
+/* --------------------FORM------------------- */
+label{
+    font-size: 18px;
+    padding-bottom:5px;
+
+}
+
+.data{
+    margin-top: 10px;
+    height: 35px;
+    width: 100%;
+    border-radius: 2px;
+    border: 1px solid black;
+    box-sizing: border-box;
+
+}
+
+.modulo-pago .button{
+    margin-top:20px;
+}
